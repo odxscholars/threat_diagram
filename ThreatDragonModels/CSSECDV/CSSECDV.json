@@ -10,17 +10,17 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 0,
-        "title": "New generic diagram",
-        "diagramType": "Generic",
-        "placeholder": "New generic diagram description",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1,
+        "title": "Web-based User Feedback System",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
         "cells": [],
-        "description": "asdad"
+        "description": "for cssecdv"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "odxscholars",
     "threatTop": 0
   }
