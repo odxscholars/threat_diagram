@@ -135,9 +135,9 @@
                   "id": "b5638b1c-0946-484e-8063-63b119bf8f39",
                   "title": "Spoof",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Spoofing",
-                  "description": "Provide a description for this threat",
+                  "description": "An attacker could impersonate a legitimate user (e.g., through phishing or session hijacking), bypassing login mechanisms.\n",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
@@ -146,7 +146,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 4,
                 "repudiation": 0
               }
             },
@@ -277,7 +277,7 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "description": "Provide a description for this threat",
+                  "description": "Attacker bypasses auth via weak checks.\t",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
@@ -286,7 +286,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -979,11 +979,11 @@
               "threats": [
                 {
                   "id": "87174386-f6f2-449b-ac59-88d683b722e4",
-                  "title": "Scraping",
+                  "title": "Tampering",
                   "status": "Open",
                   "severity": "High",
-                  "type": "Spoofing",
-                  "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
+                  "type": "Tampering",
+                  "description": "Malicious inputs manipulate database queries.\t",
                   "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
                   "modelType": "STRIDE",
                   "new": false,
@@ -993,7 +993,7 @@
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "tampering": 0,
+                "tampering": 1,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -1120,11 +1120,11 @@
               "threats": [
                 {
                   "id": "b2d81c67-cf58-482d-96d8-ea9e09ddd6ca",
-                  "title": "Scraping",
+                  "title": "Elevation Of Privilege",
                   "status": "Open",
                   "severity": "High",
                   "type": "Elevation of privilege",
-                  "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
+                  "description": "Regular user gains admin rights.\t",
                   "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
                   "modelType": "STRIDE",
                   "new": false,
@@ -1138,7 +1138,7 @@
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
-                "elevationOfPrivilege": 1
+                "elevationOfPrivilege": 2
               }
             }
           },
@@ -1265,7 +1265,7 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Tampering",
-                  "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
+                  "description": "Attacker manipulates directory service queries.\t",
                   "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
                   "modelType": "STRIDE",
                   "new": false,
@@ -1275,7 +1275,7 @@
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -1300,17 +1300,17 @@
             ],
             "id": "ca6630f3-3cd0-409f-acda-8fe426a06b89",
             "source": {
-              "x": 610,
-              "y": 430
+              "x": 630,
+              "y": 410
             },
             "target": {
-              "x": 1140,
-              "y": 410
+              "x": 1160,
+              "y": 390
             },
             "vertices": [
               {
-                "x": 900,
-                "y": 460
+                "x": 920,
+                "y": 440
               }
             ],
             "zIndex": 14
